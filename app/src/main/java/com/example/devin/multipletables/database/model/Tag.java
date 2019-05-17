@@ -3,19 +3,19 @@ package com.example.devin.multipletables.database.model;
 public class Tag {
 
     int id;
-    String tag_name;
+    String tagName;
 
     public Tag() {
 
     }
 
-    public Tag(String tag_name) {
-        this.tag_name = tag_name;
+    public Tag(String tagName) {
+        this.tagName = tagName;
     }
 
-   public Tag(int id, String tag_name) {
+   public Tag(int id, String tagName) {
         this.id = id;
-        this.tag_name = tag_name;
+        this.tagName = tagName;
    }
 
     public int getId() {
@@ -26,11 +26,11 @@ public class Tag {
         this.id = id;
     }
 
-    public String getTag_name() {
-        return tag_name;
+    public String getTagName() {
+        return tagName;
     }
 
-    public void setTag_name(String tag_name) {
-        this.tag_name = tag_name;
+    public void setTagName(String tag_name) {
+        this.tagName = tag_name;
     }
 }
